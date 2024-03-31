@@ -2,12 +2,13 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserParentSelectionView" customModule="ParentalControl" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserParentSelectionView" customModule="ParentalControlSoftware" customModuleProvider="target">
             <connections>
                 <outlet property="contentView" destination="iN0-l3-epB" id="25a-gj-Au2"/>
                 <outlet property="userDependentImageView" destination="5ql-gZ-SYb" id="gV9-2T-neh"/>
@@ -19,33 +20,29 @@
             <rect key="frame" x="0.0" y="0.0" width="413" height="154"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="figure.2.and.child.holdinghands" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="5ql-gZ-SYb">
+                    <rect key="frame" x="20" y="4.6666666666666714" width="158" height="144.99999999999994"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parents" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5I1-fE-ulc">
-                    <rect key="frame" x="196" y="49" width="167" height="56"/>
+                    <rect key="frame" x="188" y="25" width="167" height="77"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="167" id="1Il-tj-tSJ"/>
+                        <constraint firstAttribute="width" constant="167" id="18Y-nK-8BR"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="figure.2.and.child.holdinghands" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="5ql-gZ-SYb">
-                    <rect key="frame" x="20" y="28.666666666666671" width="149" height="98"/>
-                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="149" id="vO0-KY-JL1"/>
-                    </constraints>
-                </imageView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <color key="backgroundColor" red="0.81346767070000003" green="0.99063362880000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
             <constraints>
-                <constraint firstItem="5ql-gZ-SYb" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="2kj-5R-f9W"/>
-                <constraint firstItem="5I1-fE-ulc" firstAttribute="leading" secondItem="5ql-gZ-SYb" secondAttribute="trailing" constant="27" id="DDN-KB-8fm"/>
-                <constraint firstItem="5ql-gZ-SYb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="29" id="Wum-As-r5g"/>
-                <constraint firstItem="5I1-fE-ulc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="49" id="YdC-Sy-IhV"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="5I1-fE-ulc" secondAttribute="trailing" constant="50" id="cEu-bK-g8M"/>
-                <constraint firstAttribute="bottom" secondItem="5ql-gZ-SYb" secondAttribute="bottom" constant="28" id="vOx-d7-eBR"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="5I1-fE-ulc" secondAttribute="bottom" constant="15" id="wzG-dC-tao"/>
+                <constraint firstAttribute="bottom" secondItem="5ql-gZ-SYb" secondAttribute="bottom" constant="5" id="NJx-us-0FI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="5I1-fE-ulc" secondAttribute="bottom" constant="18" id="OzP-4Y-UUf"/>
+                <constraint firstItem="5I1-fE-ulc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="25" id="hrf-oY-oRM"/>
+                <constraint firstItem="5ql-gZ-SYb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="ilX-VQ-spq"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="5I1-fE-ulc" secondAttribute="trailing" constant="58" id="pM9-F1-0QR"/>
+                <constraint firstItem="5I1-fE-ulc" firstAttribute="leading" secondItem="5ql-gZ-SYb" secondAttribute="trailing" constant="10" id="qE4-uZ-AnK"/>
+                <constraint firstItem="5ql-gZ-SYb" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="u1p-mn-zC4"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="58.778625954198468" y="265.49295774647891"/>

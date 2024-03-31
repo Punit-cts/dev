@@ -7,25 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49AAD3452BB9452000BF0ADC /* UserSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3432BB9452000BF0ADC /* UserSelectionViewController.swift */; };
+		49AAD3462BB9452000BF0ADC /* UserSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49AAD3442BB9452000BF0ADC /* UserSelectionViewController.xib */; };
+		49AAD3482BB945C800BF0ADC /* UserParentSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3472BB945C800BF0ADC /* UserParentSelectionView.swift */; };
+		49AAD34A2BB945D200BF0ADC /* UserParentSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49AAD3492BB945D200BF0ADC /* UserParentSelectionView.xib */; };
+		49AAD34C2BB9475E00BF0ADC /* UserChildSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD34B2BB9475E00BF0ADC /* UserChildSelectionView.swift */; };
+		49AAD34E2BB947B900BF0ADC /* UserChildSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49AAD34D2BB947B900BF0ADC /* UserChildSelectionView.xib */; };
+		49AAD3512BB94BD600BF0ADC /* OPTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD34F2BB94BD600BF0ADC /* OPTViewController.swift */; };
+		49AAD3562BB94D1100BF0ADC /* APIResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3552BB94D1100BF0ADC /* APIResponseModels.swift */; };
+		49AAD35B2BB94F9700BF0ADC /* OTPVerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD35A2BB94F9700BF0ADC /* OTPVerificationModel.swift */; };
+		49AAD35D2BB94FC800BF0ADC /* OTPVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD35C2BB94FC800BF0ADC /* OTPVerificationViewModel.swift */; };
+		49AAD35F2BB9500000BF0ADC /* OTPVerificationNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD35E2BB9500000BF0ADC /* OTPVerificationNetworkManager.swift */; };
+		49AAD3642BB951D300BF0ADC /* OTPVerificationNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3612BB951D300BF0ADC /* OTPVerificationNetworkManager.swift */; };
+		49AAD3652BB951D300BF0ADC /* LoginVerificationNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3622BB951D300BF0ADC /* LoginVerificationNetworkManager.swift */; };
+		49AAD3662BB951D300BF0ADC /* LoginNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3632BB951D300BF0ADC /* LoginNetworkManager.swift */; };
+		49AAD36B2BB9520000BF0ADC /* LoginVerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3682BB9520000BF0ADC /* LoginVerificationModel.swift */; };
+		49AAD36C2BB9520000BF0ADC /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3692BB9520000BF0ADC /* LoginModel.swift */; };
+		49AAD36D2BB9520000BF0ADC /* OTPVerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD36A2BB9520000BF0ADC /* OTPVerificationModel.swift */; };
+		49AAD3722BB9526F00BF0ADC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD36F2BB9526F00BF0ADC /* LoginViewModel.swift */; };
+		49AAD3732BB9526F00BF0ADC /* LoginVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3702BB9526F00BF0ADC /* LoginVerificationViewModel.swift */; };
+		49AAD3742BB9526F00BF0ADC /* OTPVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3712BB9526F00BF0ADC /* OTPVerificationViewModel.swift */; };
+		49AAD37E2BB9528400BF0ADC /* CustomEmailTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49AAD3762BB9528400BF0ADC /* CustomEmailTextField.xib */; };
+		49AAD37F2BB9528400BF0ADC /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3772BB9528400BF0ADC /* LoggedInViewController.swift */; };
+		49AAD3802BB9528400BF0ADC /* CustomPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3782BB9528400BF0ADC /* CustomPasswordTextField.swift */; };
+		49AAD3812BB9528400BF0ADC /* CustomEmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD3792BB9528400BF0ADC /* CustomEmailTextField.swift */; };
+		49AAD3822BB9528400BF0ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AAD37A2BB9528400BF0ADC /* Main.storyboard */; };
+		49AAD3832BB9528400BF0ADC /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAD37C2BB9528400BF0ADC /* LoginScreenViewController.swift */; };
+		49AAD3842BB9528400BF0ADC /* CustomPasswordTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49AAD37D2BB9528400BF0ADC /* CustomPasswordTextField.xib */; };
 		49F271892BB14FC700405F3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F271882BB14FC700405F3F /* AppDelegate.swift */; };
 		49F2718B2BB14FC700405F3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F2718A2BB14FC700405F3F /* SceneDelegate.swift */; };
-		49F2718D2BB14FC700405F3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F2718C2BB14FC700405F3F /* ViewController.swift */; };
+		49F2718D2BB14FC700405F3F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F2718C2BB14FC700405F3F /* LoginViewController.swift */; };
 		49F271902BB14FC700405F3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F2718E2BB14FC700405F3F /* Main.storyboard */; };
 		49F271932BB14FC700405F3F /* ParentalControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49F271912BB14FC700405F3F /* ParentalControl.xcdatamodeld */; };
 		49F271952BB14FC800405F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F271942BB14FC800405F3F /* Assets.xcassets */; };
 		49F271982BB14FC800405F3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F271962BB14FC800405F3F /* LaunchScreen.storyboard */; };
+		49F271A32BB1509D00405F3F /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F271A22BB1509D00405F3F /* LoginModel.swift */; };
+		49F271A72BB150DA00405F3F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F271A62BB150DA00405F3F /* NetworkManager.swift */; };
+		49F271A92BB150E600405F3F /* VerificationNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F271A82BB150E600405F3F /* VerificationNetworkManager.swift */; };
+		49F271AB2BB1560F00405F3F /* MaterialLikeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F271AA2BB1560F00405F3F /* MaterialLikeTextField.swift */; };
+		49F271AD2BB1565900405F3F /* MaterialLikeTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F271AC2BB1565900405F3F /* MaterialLikeTextField.xib */; };
+		49F271AF2BB1574F00405F3F /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F271AE2BB1574F00405F3F /* Icons.swift */; };
+		49F271B12BB1577500405F3F /* AppColorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F271B02BB1577500405F3F /* AppColorList.swift */; };
+		49F271B32BB1578D00405F3F /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F271B22BB1578D00405F3F /* Bundle.swift */; };
+		49F271B52BB157AF00405F3F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F271B42BB157AF00405F3F /* UIView+Extensions.swift */; };
+		49F271B72BB157FC00405F3F /* Material+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F271B62BB157FC00405F3F /* Material+Extensions.swift */; };
+		49F271B92BB1581500405F3F /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F271B82BB1581500405F3F /* UIFont+Extensions.swift */; };
+		49F271BC2BB1582D00405F3F /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F271BB2BB1582D00405F3F /* Strings.swift */; };
+		49F271BE2BB1589E00405F3F /* Strings+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F271BD2BB1589E00405F3F /* Strings+Extensions.swift */; };
+		49F271C12BB1592800405F3F /* PasswordTrailingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F271C02BB1592800405F3F /* PasswordTrailingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49AAD3432BB9452000BF0ADC /* UserSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelectionViewController.swift; sourceTree = "<group>"; };
+		49AAD3442BB9452000BF0ADC /* UserSelectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserSelectionViewController.xib; sourceTree = "<group>"; };
+		49AAD3472BB945C800BF0ADC /* UserParentSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserParentSelectionView.swift; sourceTree = "<group>"; };
+		49AAD3492BB945D200BF0ADC /* UserParentSelectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserParentSelectionView.xib; sourceTree = "<group>"; };
+		49AAD34B2BB9475E00BF0ADC /* UserChildSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChildSelectionView.swift; sourceTree = "<group>"; };
+		49AAD34D2BB947B900BF0ADC /* UserChildSelectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserChildSelectionView.xib; sourceTree = "<group>"; };
+		49AAD34F2BB94BD600BF0ADC /* OPTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPTViewController.swift; sourceTree = "<group>"; };
+		49AAD3552BB94D1100BF0ADC /* APIResponseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponseModels.swift; sourceTree = "<group>"; };
+		49AAD35A2BB94F9700BF0ADC /* OTPVerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationModel.swift; sourceTree = "<group>"; };
+		49AAD35C2BB94FC800BF0ADC /* OTPVerificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationViewModel.swift; sourceTree = "<group>"; };
+		49AAD35E2BB9500000BF0ADC /* OTPVerificationNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationNetworkManager.swift; sourceTree = "<group>"; };
+		49AAD3612BB951D300BF0ADC /* OTPVerificationNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPVerificationNetworkManager.swift; sourceTree = "<group>"; };
+		49AAD3622BB951D300BF0ADC /* LoginVerificationNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVerificationNetworkManager.swift; sourceTree = "<group>"; };
+		49AAD3632BB951D300BF0ADC /* LoginNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginNetworkManager.swift; sourceTree = "<group>"; };
+		49AAD3682BB9520000BF0ADC /* LoginVerificationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVerificationModel.swift; sourceTree = "<group>"; };
+		49AAD3692BB9520000BF0ADC /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		49AAD36A2BB9520000BF0ADC /* OTPVerificationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPVerificationModel.swift; sourceTree = "<group>"; };
+		49AAD36F2BB9526F00BF0ADC /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		49AAD3702BB9526F00BF0ADC /* LoginVerificationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVerificationViewModel.swift; sourceTree = "<group>"; };
+		49AAD3712BB9526F00BF0ADC /* OTPVerificationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPVerificationViewModel.swift; sourceTree = "<group>"; };
+		49AAD3762BB9528400BF0ADC /* CustomEmailTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomEmailTextField.xib; sourceTree = "<group>"; };
+		49AAD3772BB9528400BF0ADC /* LoggedInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
+		49AAD3782BB9528400BF0ADC /* CustomPasswordTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPasswordTextField.swift; sourceTree = "<group>"; };
+		49AAD3792BB9528400BF0ADC /* CustomEmailTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomEmailTextField.swift; sourceTree = "<group>"; };
+		49AAD37B2BB9528400BF0ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49AAD37C2BB9528400BF0ADC /* LoginScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		49AAD37D2BB9528400BF0ADC /* CustomPasswordTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPasswordTextField.xib; sourceTree = "<group>"; };
 		49F271852BB14FC700405F3F /* ParentalControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParentalControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F271882BB14FC700405F3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49F2718A2BB14FC700405F3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		49F2718C2BB14FC700405F3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49F2718C2BB14FC700405F3F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		49F2718F2BB14FC700405F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49F271922BB14FC700405F3F /* ParentalControl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParentalControl.xcdatamodel; sourceTree = "<group>"; };
 		49F271942BB14FC800405F3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49F271972BB14FC800405F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49F271992BB14FC800405F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F271A22BB1509D00405F3F /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		49F271A62BB150DA00405F3F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		49F271A82BB150E600405F3F /* VerificationNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationNetworkManager.swift; sourceTree = "<group>"; };
+		49F271AA2BB1560F00405F3F /* MaterialLikeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialLikeTextField.swift; sourceTree = "<group>"; };
+		49F271AC2BB1565900405F3F /* MaterialLikeTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaterialLikeTextField.xib; sourceTree = "<group>"; };
+		49F271AE2BB1574F00405F3F /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		49F271B02BB1577500405F3F /* AppColorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColorList.swift; sourceTree = "<group>"; };
+		49F271B22BB1578D00405F3F /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		49F271B42BB157AF00405F3F /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		49F271B62BB157FC00405F3F /* Material+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Material+Extensions.swift"; sourceTree = "<group>"; };
+		49F271B82BB1581500405F3F /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		49F271BB2BB1582D00405F3F /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		49F271BD2BB1589E00405F3F /* Strings+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+Extensions.swift"; sourceTree = "<group>"; };
+		49F271C02BB1592800405F3F /* PasswordTrailingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTrailingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +121,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49AAD3422BB9450200BF0ADC /* UserViews */ = {
+			isa = PBXGroup;
+			children = (
+				49AAD3432BB9452000BF0ADC /* UserSelectionViewController.swift */,
+				49AAD3442BB9452000BF0ADC /* UserSelectionViewController.xib */,
+				49AAD3472BB945C800BF0ADC /* UserParentSelectionView.swift */,
+				49AAD3492BB945D200BF0ADC /* UserParentSelectionView.xib */,
+				49AAD34B2BB9475E00BF0ADC /* UserChildSelectionView.swift */,
+				49AAD34D2BB947B900BF0ADC /* UserChildSelectionView.xib */,
+			);
+			path = UserViews;
+			sourceTree = "<group>";
+		};
+		49AAD3602BB951D300BF0ADC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				49AAD3612BB951D300BF0ADC /* OTPVerificationNetworkManager.swift */,
+				49AAD3622BB951D300BF0ADC /* LoginVerificationNetworkManager.swift */,
+				49AAD3632BB951D300BF0ADC /* LoginNetworkManager.swift */,
+			);
+			name = Manager;
+			path = ../../../CorenrollDemo/CorenrollDemo/Manager;
+			sourceTree = "<group>";
+		};
+		49AAD3672BB9520000BF0ADC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49AAD3682BB9520000BF0ADC /* LoginVerificationModel.swift */,
+				49AAD3692BB9520000BF0ADC /* LoginModel.swift */,
+				49AAD36A2BB9520000BF0ADC /* OTPVerificationModel.swift */,
+			);
+			name = Model;
+			path = ../../../CorenrollDemo/CorenrollDemo/Model;
+			sourceTree = "<group>";
+		};
+		49AAD36E2BB9526F00BF0ADC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				49AAD36F2BB9526F00BF0ADC /* LoginViewModel.swift */,
+				49AAD3702BB9526F00BF0ADC /* LoginVerificationViewModel.swift */,
+				49AAD3712BB9526F00BF0ADC /* OTPVerificationViewModel.swift */,
+			);
+			name = ViewModel;
+			path = ../../../CorenrollDemo/CorenrollDemo/ViewModel;
+			sourceTree = "<group>";
+		};
+		49AAD3752BB9528400BF0ADC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49AAD3762BB9528400BF0ADC /* CustomEmailTextField.xib */,
+				49AAD3772BB9528400BF0ADC /* LoggedInViewController.swift */,
+				49AAD3782BB9528400BF0ADC /* CustomPasswordTextField.swift */,
+				49AAD3792BB9528400BF0ADC /* CustomEmailTextField.swift */,
+				49AAD37A2BB9528400BF0ADC /* Main.storyboard */,
+				49AAD37C2BB9528400BF0ADC /* LoginScreenViewController.swift */,
+				49AAD37D2BB9528400BF0ADC /* CustomPasswordTextField.xib */,
+			);
+			name = View;
+			path = ../../../CorenrollDemo/CorenrollDemo/View;
+			sourceTree = "<group>";
+		};
 		49F2717C2BB14FC700405F3F = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +201,80 @@
 		49F271872BB14FC700405F3F /* ParentalControl */ = {
 			isa = PBXGroup;
 			children = (
-				49F271882BB14FC700405F3F /* AppDelegate.swift */,
-				49F2718A2BB14FC700405F3F /* SceneDelegate.swift */,
-				49F2718C2BB14FC700405F3F /* ViewController.swift */,
-				49F2718E2BB14FC700405F3F /* Main.storyboard */,
-				49F271942BB14FC800405F3F /* Assets.xcassets */,
-				49F271962BB14FC800405F3F /* LaunchScreen.storyboard */,
 				49F271992BB14FC800405F3F /* Info.plist */,
-				49F271912BB14FC700405F3F /* ParentalControl.xcdatamodeld */,
+				49F2719F2BB1503C00405F3F /* Delegates */,
+				49AAD3422BB9450200BF0ADC /* UserViews */,
+				49AAD3602BB951D300BF0ADC /* Manager */,
+				49AAD3672BB9520000BF0ADC /* Model */,
+				49F271A12BB1505B00405F3F /* Login  and Verification */,
+				49AAD36E2BB9526F00BF0ADC /* ViewModel */,
+				49F271A42BB150A800405F3F /* Custom View */,
+				49AAD3752BB9528400BF0ADC /* View */,
+				49F271BF2BB158E300405F3F /* Helpers */,
+				49F271A02BB1504500405F3F /* Assets */,
 			);
 			path = ParentalControl;
+			sourceTree = "<group>";
+		};
+		49F2719F2BB1503C00405F3F /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				49F271882BB14FC700405F3F /* AppDelegate.swift */,
+				49F2718A2BB14FC700405F3F /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		49F271A02BB1504500405F3F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				49F271942BB14FC800405F3F /* Assets.xcassets */,
+				49F271962BB14FC800405F3F /* LaunchScreen.storyboard */,
+				49F271912BB14FC700405F3F /* ParentalControl.xcdatamodeld */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		49F271A12BB1505B00405F3F /* Login  and Verification */ = {
+			isa = PBXGroup;
+			children = (
+				49F2718C2BB14FC700405F3F /* LoginViewController.swift */,
+				49F271A22BB1509D00405F3F /* LoginModel.swift */,
+				49AAD35A2BB94F9700BF0ADC /* OTPVerificationModel.swift */,
+				49AAD35C2BB94FC800BF0ADC /* OTPVerificationViewModel.swift */,
+				49F271A62BB150DA00405F3F /* NetworkManager.swift */,
+				49F271A82BB150E600405F3F /* VerificationNetworkManager.swift */,
+				49AAD35E2BB9500000BF0ADC /* OTPVerificationNetworkManager.swift */,
+				49F2718E2BB14FC700405F3F /* Main.storyboard */,
+				49AAD34F2BB94BD600BF0ADC /* OPTViewController.swift */,
+			);
+			path = "Login  and Verification";
+			sourceTree = "<group>";
+		};
+		49F271A42BB150A800405F3F /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				49F271AA2BB1560F00405F3F /* MaterialLikeTextField.swift */,
+				49F271AC2BB1565900405F3F /* MaterialLikeTextField.xib */,
+				49F271C02BB1592800405F3F /* PasswordTrailingButton.swift */,
+			);
+			path = "Custom View";
+			sourceTree = "<group>";
+		};
+		49F271BF2BB158E300405F3F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				49F271AE2BB1574F00405F3F /* Icons.swift */,
+				49F271B02BB1577500405F3F /* AppColorList.swift */,
+				49F271B22BB1578D00405F3F /* Bundle.swift */,
+				49F271B42BB157AF00405F3F /* UIView+Extensions.swift */,
+				49F271B62BB157FC00405F3F /* Material+Extensions.swift */,
+				49F271B82BB1581500405F3F /* UIFont+Extensions.swift */,
+				49F271BB2BB1582D00405F3F /* Strings.swift */,
+				49F271BD2BB1589E00405F3F /* Strings+Extensions.swift */,
+				49AAD3552BB94D1100BF0ADC /* APIResponseModels.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,6 +321,9 @@
 				Base,
 			);
 			mainGroup = 49F2717C2BB14FC700405F3F;
+			packageReferences = (
+				49AAD3572BB94D4900BF0ADC /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+			);
 			productRefGroup = 49F271862BB14FC700405F3F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,9 +338,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49AAD34E2BB947B900BF0ADC /* UserChildSelectionView.xib in Resources */,
+				49AAD34A2BB945D200BF0ADC /* UserParentSelectionView.xib in Resources */,
 				49F271982BB14FC800405F3F /* LaunchScreen.storyboard in Resources */,
 				49F271952BB14FC800405F3F /* Assets.xcassets in Resources */,
 				49F271902BB14FC700405F3F /* Main.storyboard in Resources */,
+				49AAD37E2BB9528400BF0ADC /* CustomEmailTextField.xib in Resources */,
+				49AAD3822BB9528400BF0ADC /* Main.storyboard in Resources */,
+				49AAD3462BB9452000BF0ADC /* UserSelectionViewController.xib in Resources */,
+				49F271AD2BB1565900405F3F /* MaterialLikeTextField.xib in Resources */,
+				49AAD3842BB9528400BF0ADC /* CustomPasswordTextField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +358,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F271C12BB1592800405F3F /* PasswordTrailingButton.swift in Sources */,
+				49F271A72BB150DA00405F3F /* NetworkManager.swift in Sources */,
+				49AAD35B2BB94F9700BF0ADC /* OTPVerificationModel.swift in Sources */,
+				49F271A92BB150E600405F3F /* VerificationNetworkManager.swift in Sources */,
+				49F271A32BB1509D00405F3F /* LoginModel.swift in Sources */,
+				49AAD3562BB94D1100BF0ADC /* APIResponseModels.swift in Sources */,
+				49AAD3662BB951D300BF0ADC /* LoginNetworkManager.swift in Sources */,
+				49AAD3482BB945C800BF0ADC /* UserParentSelectionView.swift in Sources */,
+				49AAD3832BB9528400BF0ADC /* LoginScreenViewController.swift in Sources */,
+				49AAD36B2BB9520000BF0ADC /* LoginVerificationModel.swift in Sources */,
+				49AAD36D2BB9520000BF0ADC /* OTPVerificationModel.swift in Sources */,
+				49F271B72BB157FC00405F3F /* Material+Extensions.swift in Sources */,
+				49F271AB2BB1560F00405F3F /* MaterialLikeTextField.swift in Sources */,
+				49AAD34C2BB9475E00BF0ADC /* UserChildSelectionView.swift in Sources */,
 				49F271932BB14FC700405F3F /* ParentalControl.xcdatamodeld in Sources */,
-				49F2718D2BB14FC700405F3F /* ViewController.swift in Sources */,
+				49F271B92BB1581500405F3F /* UIFont+Extensions.swift in Sources */,
+				49AAD3452BB9452000BF0ADC /* UserSelectionViewController.swift in Sources */,
+				49F271BC2BB1582D00405F3F /* Strings.swift in Sources */,
+				49AAD35F2BB9500000BF0ADC /* OTPVerificationNetworkManager.swift in Sources */,
+				49AAD3642BB951D300BF0ADC /* OTPVerificationNetworkManager.swift in Sources */,
+				49F271BE2BB1589E00405F3F /* Strings+Extensions.swift in Sources */,
+				49AAD3732BB9526F00BF0ADC /* LoginVerificationViewModel.swift in Sources */,
+				49AAD3722BB9526F00BF0ADC /* LoginViewModel.swift in Sources */,
+				49F271B12BB1577500405F3F /* AppColorList.swift in Sources */,
+				49AAD3802BB9528400BF0ADC /* CustomPasswordTextField.swift in Sources */,
+				49F271B52BB157AF00405F3F /* UIView+Extensions.swift in Sources */,
+				49F271AF2BB1574F00405F3F /* Icons.swift in Sources */,
+				49AAD3812BB9528400BF0ADC /* CustomEmailTextField.swift in Sources */,
+				49AAD3652BB951D300BF0ADC /* LoginVerificationNetworkManager.swift in Sources */,
+				49AAD37F2BB9528400BF0ADC /* LoggedInViewController.swift in Sources */,
+				49F2718D2BB14FC700405F3F /* LoginViewController.swift in Sources */,
+				49AAD35D2BB94FC800BF0ADC /* OTPVerificationViewModel.swift in Sources */,
+				49AAD36C2BB9520000BF0ADC /* LoginModel.swift in Sources */,
+				49AAD3742BB9526F00BF0ADC /* OTPVerificationViewModel.swift in Sources */,
+				49F271B32BB1578D00405F3F /* Bundle.swift in Sources */,
 				49F271892BB14FC700405F3F /* AppDelegate.swift in Sources */,
+				49AAD3512BB94BD600BF0ADC /* OPTViewController.swift in Sources */,
 				49F2718B2BB14FC700405F3F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +402,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		49AAD37A2BB9528400BF0ADC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49AAD37B2BB9528400BF0ADC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		49F2718E2BB14FC700405F3F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -367,6 +626,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		49AAD3572BB94D4900BF0ADC /* XCRemoteSwiftPackageReference "ObjectMapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tristanhimmelman/ObjectMapper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCVersionGroup section */
 		49F271912BB14FC700405F3F /* ParentalControl.xcdatamodeld */ = {

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class UserSelectionViewController: UIViewController {
+class UserSelectionViewController: UIViewController, UserParentSelectionViewDelegate {
 
     @IBOutlet weak var parentSelectionView: UserParentSelectionView!
     @IBOutlet weak var childSelectionView: UserChildSelectionView!
@@ -16,6 +16,21 @@ class UserSelectionViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = "User Views"
+        
+        // Set the delegate
+        parentSelectionView.delegate = self
     }
-
+        
+        // MARK: - UserParentSelectionViewDelegate
+        
+    func userParentSelectionViewDidTap(_ view: UserParentSelectionView) {
+        guard let navigationController = self.navigationController else {
+            fatalError("UserSelectionViewController is not embedded in a UINavigationController")
+        }
+        
+        // Instantiate LoggedInViewController from its own storyboard
+        let storyboard = UIStoryboard(name: "LoggedInViewController", bundle: nil)
+        let loggedInVC = storyboard.instantiateViewController(withIdentifier: "LoggedInViewController") as! LoggedInViewController
+        navigationController.pushViewController(loggedInVC, animated: true)
+    }
 }

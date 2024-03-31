@@ -7,7 +7,13 @@
 
 import UIKit
 
+protocol UserParentSelectionViewDelegate: AnyObject {
+    func userParentSelectionViewDidTap(_ view: UserParentSelectionView)
+}
+
 class UserParentSelectionView: UIView {
+    
+    weak var delegate: UserParentSelectionViewDelegate?
 
     @IBOutlet var contentView: UIView!
     
@@ -33,9 +39,13 @@ class UserParentSelectionView: UIView {
             self.contentView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
             self.contentView.trailingAnchor.constraint(equalTo: self.trailingAnchor),
         ])
+        self.contentView.addTapGesture(tapNumber: 1, target: self, action: #selector(didTapAction))
     }
     
     @IBOutlet weak var userDepententLabel: UILabel!
     @IBOutlet weak var userDependentImageView: UIImageView!
     
+    @objc func didTapAction(_ sender: Any) {
+        delegate?.userParentSelectionViewDidTap(self)
+    }
 }

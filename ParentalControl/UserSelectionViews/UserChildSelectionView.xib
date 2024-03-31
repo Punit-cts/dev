@@ -45,7 +45,7 @@
                 <constraint firstAttribute="bottom" secondItem="PaS-Ty-Gwm" secondAttribute="bottom" constant="5" id="o64-T2-Vk1"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="-30" y="251"/>
+            <point key="canvasLocation" x="-140" y="243"/>
         </view>
     </objects>
     <resources>
